@@ -11,6 +11,7 @@
         <module name="feign-consumer" />
         <module name="register" />
         <module name="server-helloworld" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
   </component>

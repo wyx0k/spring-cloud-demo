@@ -21,6 +21,6 @@ public class TestController {
 
     @RequestMapping("/ok/{i}")
     public String t (@PathVariable int i){
-        return "hello_world"+ i + "port" + port;
+        return "hello_world: "+ i + " -->in port" + port;
     }
 }
